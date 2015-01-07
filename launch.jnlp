@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/peterw/workspace/xswingx/dist/" href="launch.jnlp">
+    <information>
+        <title>xswingx</title>
+        <vendor>Peter Weishapl</vendor>
+        <description>xswingx Demo Application</description>
+        <description kind="short">xswingx</description>
+        <homepage href="http://xswingx.googlecode.com"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="xswingx.jar" main="true" download="eager"/>
+        <jar href="lib/swingx.jar" download="eager"/>
+        <jar href="lib/forms.jar" download="eager"/>
+        <jar href="lib/looks-2.1.3.jar" download="eager"/>
+    </resources>
+    <application-desc main-class="org.jdesktop.xswingx.demo.Demo">
+    </application-desc>
+</jnlp>
